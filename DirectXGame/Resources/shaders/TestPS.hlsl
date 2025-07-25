@@ -5,12 +5,12 @@
 
 struct PixelShederOutput
 {
-    float4 color : SV_Target0;
+    float32_t4 color : SV_Target0;
 };
 
 PixelShederOutput main()
 {
     PixelShederOutput output;
-    output.color = float4(1.0f, 1.0f, 1.0f, 1.0f);
+    output.color = float32_t4(1.0f, 1.0f, 1.0f, 1.0f);
     return output;
 }

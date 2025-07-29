@@ -88,8 +88,8 @@ ID3DBlob* Shader::GetBlob() {
 	    return blob_; 
 }
 
-ID3DBlob* Shader::GetDxcBlob() {
-	return blob_;
+IDxcBlob* Shader::GetDxcBlob() {
+	return dxcBlob_;
 }
 
 Shader::Shader() {}

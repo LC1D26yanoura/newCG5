@@ -156,8 +156,6 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	// 解放処理
 	vertexResource->Release();
 	graphicsPipeLineState->Release();
-	//signatureBlob->Release();
-	//rootSignature->Release();
 
 	//エンジンの終了処理
 	KamataEngine::Finalize();

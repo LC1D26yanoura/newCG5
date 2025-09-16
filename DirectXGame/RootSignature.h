@@ -1,10 +1,18 @@
 #pragma once
-#include<d3d12.h>
+
+#include <cassert>
+#include <d3d12.h>
 class RootSignature {
 public:
-	void create();
+	// 生成
+	void Create();
+
+	// ゲッター
 	ID3D12RootSignature* Get();
+
+	// コンストラクタ
 	RootSignature();
+	// デストラクタ
 	~RootSignature();
 
 private:

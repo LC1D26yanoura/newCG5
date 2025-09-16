@@ -275,7 +275,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		commandList->ClearDepthStencilView(dsvHandleCPU, D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
 
 		// 描画
-		Model::PreDraw(commandList);
+		Model::PreDraw();
 		model->Draw(worldTransform, camera);
 		Model::PostDraw();
 

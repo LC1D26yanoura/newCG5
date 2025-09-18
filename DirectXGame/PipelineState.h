@@ -1,5 +1,6 @@
 #pragma once
 #include<d3d12.h>
+#include<cassert>
 class PipelineState {
 public:
 	// 初期化

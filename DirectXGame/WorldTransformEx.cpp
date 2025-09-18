@@ -28,5 +28,5 @@ KamataEngine::Matrix4x4 WorldTransformEx::MakeAffineMatrix() {
 	// World Matrix
 	Matrix4x4 matWorld = matScale * matRot * matTrans;
 
-	return matWorld_;
+	return matWorld;
 }
